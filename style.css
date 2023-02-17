@@ -9,10 +9,14 @@ nav {
   padding-left: 44%;
   padding-right: 20%;
 }
+.fa-pizza-slice{
+  color: #6eff00;
+}
 
 #title {
   font-size: 1.7rem;
 }
+
 
 #favorite-meals-link {
   text-decoration: none;
@@ -33,8 +37,15 @@ main {
   margin-top: 2%;
 }
 
+
 #search-button {
   margin-bottom: 3px;
+}
+#search-meal-input{
+  border-radius: 10px;
+}
+#search-button{
+  border-radius: 10px;
 }
 
 #meal,
@@ -146,4 +157,22 @@ main {
 }
 .recipe-link a:hover {
   color: aquamarine;
+}
+
+/* For The Fovourite Page */
+
+.for-home{
+  position: absolute;
+  left: 7px;
+  font-size: 15px;
+
+}
+.for-home a{
+  text-decoration: none;
+  color: whitesmoke;
+
+}
+
+.for-home a:hover{
+  color: royalblue;
 }
